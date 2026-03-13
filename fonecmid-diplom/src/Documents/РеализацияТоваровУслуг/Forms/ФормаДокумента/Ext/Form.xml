@@ -3,20 +3,7 @@
 	<AutoTime>CurrentOrLast</AutoTime>
 	<UsePostingMode>Auto</UsePostingMode>
 	<RepostOnWrite>true</RepostOnWrite>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<ChildItems>
-			<Button name="ПечатьАкта" id="165">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.ПечатьАкта</CommandName>
-				<ExtendedTooltip name="ПечатьАктаРасширеннаяПодсказка" id="166"/>
-			</Button>
-			<Button name="ФормаЗаполнить" id="163">
-				<Type>CommandBarButton</Type>
-				<CommandName>Form.Command.Заполнить</CommandName>
-				<ExtendedTooltip name="ФормаЗаполнитьРасширеннаяПодсказка" id="164"/>
-			</Button>
-		</ChildItems>
-	</AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
 	<Events>
 		<Event name="AfterWrite">ПослеЗаписи</Event>
 		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
@@ -427,38 +414,6 @@
 			</UseAlways>
 		</Attribute>
 	</Attributes>
-	<Commands>
-		<Command name="Заполнить" id="1">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Заполнить</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>Заполнить</Action>
-		</Command>
-		<Command name="ПечатьАкта" id="2">
-			<Title>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Печать акта (услуги)</v8:content>
-				</v8:item>
-			</Title>
-			<ToolTip>
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Печать акта</v8:content>
-				</v8:item>
-			</ToolTip>
-			<Action>ПечатьАкта</Action>
-		</Command>
-	</Commands>
 	<CommandInterface>
 		<CommandBar>
 			<Item>
@@ -468,7 +423,7 @@
 				<DefaultVisible>false</DefaultVisible>
 			</Item>
 			<Item>
-				<Command>Form.Command.ПечатьАкта</Command>
+				<Command>0</Command>
 				<Type>Added</Type>
 				<CommandGroup>FormCommandBarImportant</CommandGroup>
 				<Index>1</Index>
