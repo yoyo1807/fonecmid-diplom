@@ -1618,8 +1618,8 @@
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсами.Module" id="e6af9db4-b93f-422e-846c-e6c5fd33f992.0" configVersion="64fae25f6f473b44bf627b855df77d9400000000"/>
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый" id="2895ac1f-5f15-422d-9d90-2df87255a92a" configVersion="a2ff8f9446726947b3ae2bbc08d9429800000000"/>
 		<Metadata name="CommonModule.БлокировкаРаботыСВнешнимиРесурсамиПереопределяемый.Module" id="2895ac1f-5f15-422d-9d90-2df87255a92a.0" configVersion="45460c5a32bea84b98616efca20c259300000000"/>
-		<Metadata name="CommonModule.ВКМ_ОбслуживаниеСервер" id="86b7c915-4f74-4728-b839-c53ffc9f8e3d" configVersion="58697b069194f249bfc262622de3a43200000000"/>
-		<Metadata name="CommonModule.ВКМ_ОбслуживаниеСервер.Module" id="86b7c915-4f74-4728-b839-c53ffc9f8e3d.0" configVersion="e73053b89fe09240a0145642eace787500000000"/>
+		<Metadata name="CommonModule.ВКМ_ОбслуживаниеСервер" id="86b7c915-4f74-4728-b839-c53ffc9f8e3d" configVersion="57c1cb9f7d987c439568f310d2caea2d00000000"/>
+		<Metadata name="CommonModule.ВКМ_ОбслуживаниеСервер.Module" id="86b7c915-4f74-4728-b839-c53ffc9f8e3d.0" configVersion="49ce6590aeedd642a2276e51a8e7524600000000"/>
 		<Metadata name="CommonModule.ВКМ_Телеграм" id="84e7545e-7290-432b-bbbb-e3d2ddca278d" configVersion="6c661a42fde120449395cd1b25904bcf00000000"/>
 		<Metadata name="CommonModule.ВКМ_Телеграм.Module" id="84e7545e-7290-432b-bbbb-e3d2ddca278d.0" configVersion="545aa0e83e493a4091f46e43b971505c00000000"/>
 		<Metadata name="CommonModule.ВариантыОтчетов" id="f96cbb27-7619-41e0-8577-e623ef02dc58" configVersion="5b9b7820f550a348ae064dc290cdf2b700000000"/>
@@ -3032,15 +3032,15 @@
 		<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов.Form.Форма" id="61cac5f7-320c-4098-9078-44fadcdeb219" configVersion="7e482c063cdf7e4fac3319c06e257bc100000000"/>
 		<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов.Form.Форма.Form" id="61cac5f7-320c-4098-9078-44fadcdeb219.0" configVersion="9a9a2871629f5547a217f83787ed84d100000000"/>
 		<Metadata name="DataProcessor.АвтоматическоеИзвлечениеТекстов.Help" id="3326bbcb-b277-44db-a252-2448119e8146.1" configVersion="046bf85f3aff0c479d604de2fdbe8e1400000000"/>
-		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов" id="c028335d-7200-45d3-b579-ec19ba061c8d" configVersion="a9a5dc3bb435a443aba161932d80af1000000000">
+		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов" id="c028335d-7200-45d3-b579-ec19ba061c8d" configVersion="436b1f8e96a3524e9fa8f2d02be2c61b00000000">
 			<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.TabularSection.СписокДоговоров.Attribute.ТЧ_Договор" id="7d45f0fe-eae1-41ac-9360-f3ccf93cf8c9"/>
 			<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.TabularSection.СписокДоговоров.Attribute.ТЧ_Реализация" id="892e97a9-60dc-4b1b-9a68-5bd13d99d405"/>
 			<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.Attribute.Период" id="d708f177-1d47-4fd1-bbfd-8c1ca1a297f4"/>
 			<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.TabularSection.СписокДоговоров" id="e7978cbc-5a43-4ff4-891a-1a21c8749d0e"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма" id="d83b59d5-54b9-452e-b027-711e627b0ab0" configVersion="a065fe8140c5564b84075f53bf11517e00000000"/>
-		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма.Form" id="d83b59d5-54b9-452e-b027-711e627b0ab0.0" configVersion="11aadc39b7d3ba4c9be19a11e224c33000000000"/>
-		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.ManagerModule" id="c028335d-7200-45d3-b579-ec19ba061c8d.2" configVersion="1beba65e2b5a264989922ebcfce515cd00000000"/>
+		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма" id="d83b59d5-54b9-452e-b027-711e627b0ab0" configVersion="a48074c7aedd394ca3babb50599f632900000000"/>
+		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.Form.Форма.Form" id="d83b59d5-54b9-452e-b027-711e627b0ab0.0" configVersion="2569a0a36703ab4a93bdbb168f1d37ee00000000"/>
+		<Metadata name="DataProcessor.ВКМ_МассовоеСозданиеАктов.ManagerModule" id="c028335d-7200-45d3-b579-ec19ba061c8d.2" configVersion="6d63061964d110449ea70fae273aca1b00000000"/>
 		<Metadata name="DataProcessor.ВКМ_ПроверкаРаботыБота" id="9c3c8926-2dc8-4929-9bb1-34ee62505cdd" configVersion="5a9acb60c5b88a4ca4e68722e95b654300000000"/>
 		<Metadata name="DataProcessor.ВКМ_ПроверкаРаботыБота.Form.Форма" id="fd1aa17d-a59f-4033-b7c4-e14649d28806" configVersion="9ced422b3f584848b76a9b7937016cd100000000"/>
 		<Metadata name="DataProcessor.ВКМ_ПроверкаРаботыБота.Form.Форма.Form" id="fd1aa17d-a59f-4033-b7c4-e14649d28806.0" configVersion="da971b57cc6a7b4d83b9c47852cfa7d700000000"/>
@@ -5444,8 +5444,8 @@
 		<Metadata name="StyleItem.ШрифтМеток" id="e60e1771-c8c0-44b6-b1d3-24e9529d9bd0" configVersion="aceed7d91666ea49946db37c65030aca00000000"/>
 		<Metadata name="Subsystem.Администрирование" id="9233322b-dfdb-4c66-91fe-1299292d40a5" configVersion="6ed57b4847211e44832925d9d9b8e07a00000000"/>
 		<Metadata name="Subsystem.Администрирование.CommandInterface" id="9233322b-dfdb-4c66-91fe-1299292d40a5.1" configVersion="050d0bbaf9fc3d4abaa30aa265aae1c600000000"/>
-		<Metadata name="Subsystem.ВКМ_ДобавленныеОбъекты" id="c39a32cf-10a0-4d99-a745-565a3a7b7a52" configVersion="473458a455f31b4facf11a2e3726dde200000000"/>
-		<Metadata name="Subsystem.ВКМ_ОбслуживаниеКлиентов" id="6dd053f3-0540-4859-be13-5ba6928810ba" configVersion="6a7a5a4cc8307249b6e5ec7150e302aa00000000"/>
+		<Metadata name="Subsystem.ВКМ_ДобавленныеОбъекты" id="c39a32cf-10a0-4d99-a745-565a3a7b7a52" configVersion="2f5ac4d07088b24e9141d01429de23b400000000"/>
+		<Metadata name="Subsystem.ВКМ_ОбслуживаниеКлиентов" id="6dd053f3-0540-4859-be13-5ba6928810ba" configVersion="d149c5e07e434f43a01bed982e48865900000000"/>
 		<Metadata name="Subsystem.ВКМ_ОбслуживаниеКлиентов.CommandInterface" id="6dd053f3-0540-4859-be13-5ba6928810ba.1" configVersion="8ee759380ce66d42910dacab5e99d38500000000"/>
 		<Metadata name="Subsystem.ВКМ_РасчетУправленческойЗарплаты" id="9a195171-1b76-4bb1-a887-24a629cad0f0" configVersion="6bef93f88f7cb346a4285c955558fda300000000"/>
 		<Metadata name="Subsystem.ВКМ_РасчетУправленческойЗарплаты.CommandInterface" id="9a195171-1b76-4bb1-a887-24a629cad0f0.1" configVersion="1c06d910be61c54f905327c84207483900000000"/>
