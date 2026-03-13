@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.20">
+	<Item id="c6375e48-d080-4498-aeb9-8c1ef81ce9da">
+		<Name>Оклад</Name>
+		<Code/>
+		<Description>Оклад</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</CalculationType>
+		</Displaced>
+	</Item>
+	<Item id="a04e53f5-3a07-4dde-9f21-19ae9e4413b1">
+		<Name>Отпуск</Name>
+		<Code/>
+		<Description>Отпуск</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Процент</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</CalculationType>
+		</Base>
+		<Leading>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Процент</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</CalculationType>
+		</Leading>
+	</Item>
+	<Item id="cba416a7-9d37-48f1-8d27-015cc2381a0c">
+		<Name>Процент</Name>
+		<Code/>
+		<Description>Процент</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Displaced>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</CalculationType>
+		</Displaced>
+	</Item>
+</PredefinedData>

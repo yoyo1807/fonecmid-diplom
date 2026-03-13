@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаАнализГрафика" id="37">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.АнализГрафика</CommandName>
+				<ExtendedTooltip name="ФормаАнализГрафикаРасширеннаяПодсказка" id="38"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="НомерДата" id="35">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер дата</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер дата</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="НомерДатаРасширеннаяПодсказка" id="36"/>
+			<ChildItems>
+				<InputField name="Номер" id="1">
+					<DataPath>Объект.Number</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+					<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+				</InputField>
+				<InputField name="Дата" id="4">
+					<DataPath>Объект.Date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+		<InputField name="Год" id="7">
+			<DataPath>Объект.Год</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ГодКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ГодРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<Table name="ОтпускаСотрудников" id="10">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.ОтпускаСотрудников</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ОтпускаСотрудниковКонтекстноеМеню" id="11"/>
+			<AutoCommandBar name="ОтпускаСотрудниковКоманднаяПанель" id="12"/>
+			<ExtendedTooltip name="ОтпускаСотрудниковРасширеннаяПодсказка" id="13"/>
+			<SearchStringAddition name="ОтпускаСотрудниковСтрокаПоиска" id="14">
+				<AdditionSource>
+					<Item>ОтпускаСотрудников</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтпускаСотрудниковСтрокаПоискаКонтекстноеМеню" id="15"/>
+				<ExtendedTooltip name="ОтпускаСотрудниковСтрокаПоискаРасширеннаяПодсказка" id="16"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ОтпускаСотрудниковСостояниеПросмотра" id="17">
+				<AdditionSource>
+					<Item>ОтпускаСотрудников</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтпускаСотрудниковСостояниеПросмотраКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ОтпускаСотрудниковСостояниеПросмотраРасширеннаяПодсказка" id="19"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ОтпускаСотрудниковУправлениеПоиском" id="20">
+				<AdditionSource>
+					<Item>ОтпускаСотрудников</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ОтпускаСотрудниковУправлениеПоискомКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ОтпускаСотрудниковУправлениеПоискомРасширеннаяПодсказка" id="22"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">ОтпускаСотрудниковПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<LabelField name="ОтпускаСотрудниковНомерСтроки" id="23">
+					<DataPath>Объект.ОтпускаСотрудников.LineNumber</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ОтпускаСотрудниковНомерСтрокиКонтекстноеМеню" id="24"/>
+					<ExtendedTooltip name="ОтпускаСотрудниковНомерСтрокиРасширеннаяПодсказка" id="25"/>
+				</LabelField>
+				<InputField name="ОтпускаСотрудниковСотрудник" id="26">
+					<DataPath>Объект.ОтпускаСотрудников.Сотрудник</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтпускаСотрудниковСотрудникКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ОтпускаСотрудниковСотрудникРасширеннаяПодсказка" id="28"/>
+					<Events>
+						<Event name="OnChange">ОтпускаСотрудниковСотрудникПриИзменении</Event>
+					</Events>
+				</InputField>
+				<InputField name="ОтпускаСотрудниковДатаНачала" id="29">
+					<DataPath>Объект.ОтпускаСотрудников.ДатаНачала</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтпускаСотрудниковДатаНачалаКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ОтпускаСотрудниковДатаНачалаРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ОтпускаСотрудниковДатаОкончания" id="32">
+					<DataPath>Объект.ОтпускаСотрудников.ДатаОкончания</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+					<ContextMenu name="ОтпускаСотрудниковДатаОкончанияКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ОтпускаСотрудниковДатаОкончанияРасширеннаяПодсказка" id="34"/>
+					<Events>
+						<Event name="OnChange">ОтпускаСотрудниковДатаОкончанияПриИзменении</Event>
+					</Events>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ВКМ_ГрафикОтпусков</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+			<Columns>
+				<AdditionalColumns table="Объект.ОтпускаСотрудников">
+					<Column name="ПревышениеЛимита" id="1">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Превышение лимита</v8:content>
+							</v8:item>
+						</Title>
+						<Type>
+							<v8:Type>xs:boolean</v8:Type>
+						</Type>
+					</Column>
+				</AdditionalColumns>
+			</Columns>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ОтпускаСотрудниковНомерСтроки</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ОтпускаСотрудниковСотрудник</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ОтпускаСотрудниковДатаНачала</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ОтпускаСотрудниковДатаОкончания</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.ОтпускаСотрудников.ПревышениеЛимита</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:boolean">true</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ЦветФона</dcscor:parameter>
+						<dcscor:value xsi:type="v8ui:Color">#FF99CC</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="АнализГрафика" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ графика</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Анализ графика</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>АнализГрафика</Action>
+		</Command>
+	</Commands>
+</Form>

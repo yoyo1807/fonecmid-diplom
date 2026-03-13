@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<PredefinedData xmlns="http://v8.1c.ru/8.3/xcf/predef" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CalculationTypePredefinedItems" version="2.20">
+	<Item id="7f54ed09-708e-4243-898a-29690e80fd8c">
+		<Name>НДФЛ</Name>
+		<Code/>
+		<Description>НДФЛ</Description>
+		<ActionPeriodIsBase>false</ActionPeriodIsBase>
+		<Base>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Процент</CalculationType>
+			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</CalculationType>
+		</Base>
+	</Item>
+</PredefinedData>

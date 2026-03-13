@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="AfterWriteAtServer">ПослеЗаписиНаСервере</Event>
+		<Event name="NotificationProcessing">ОбработкаОповещения</Event>
+		<Event name="OnReadAtServer">ПриЧтенииНаСервере</Event>
+		<Event name="OnOpen">ПриОткрытии</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+		<Event name="BeforeWriteAtServer">ПередЗаписьюНаСервере</Event>
+		<Event name="FillCheckProcessingAtServer">ОбработкаПроверкиЗаполненияНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Наименование" id="4">
+			<DataPath>Объект.Description</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Родитель" id="7">
+			<DataPath>Объект.Parent</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="РодительКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="РодительРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="ИНН" id="37">
+			<DataPath>Объект.ИНН</DataPath>
+			<ContextMenu name="ИННКонтекстноеМеню" id="38"/>
+			<ExtendedTooltip name="ИННРасширеннаяПодсказка" id="39"/>
+		</InputField>
+		<InputField name="КПП" id="40">
+			<DataPath>Объект.КПП</DataPath>
+			<ContextMenu name="КППКонтекстноеМеню" id="41"/>
+			<ExtendedTooltip name="КППРасширеннаяПодсказка" id="42"/>
+		</InputField>
+		<UsualGroup name="ГруппаПриобретеннаяНоменклатура" id="43">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Приобретенная номенклатура</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа приобретенная номенклатура</v8:content>
+				</v8:item>
+			</ToolTip>
+			<ExtendedTooltip name="ГруппаПриобретеннаяНоменклатураРасширеннаяПодсказка" id="44"/>
+			<ChildItems>
+				<Table name="ПриобретеннаяНоменклатура" id="45">
+					<AutoInsertNewRow>true</AutoInsertNewRow>
+					<EnableStartDrag>true</EnableStartDrag>
+					<EnableDrag>true</EnableDrag>
+					<DataPath>Объект.ПриобретеннаяНоменклатура</DataPath>
+					<RowFilter xsi:nil="true"/>
+					<ContextMenu name="ПриобретеннаяНоменклатураКонтекстноеМеню" id="46"/>
+					<AutoCommandBar name="ПриобретеннаяНоменклатураКоманднаяПанель" id="47">
+						<ChildItems>
+							<Button name="ПриобретеннаяНоменклатураПодбор" id="64">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.Подбор</CommandName>
+								<ExtendedTooltip name="ПриобретеннаяНоменклатураПодборРасширеннаяПодсказка" id="65"/>
+							</Button>
+						</ChildItems>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ПриобретеннаяНоменклатураРасширеннаяПодсказка" id="48"/>
+					<SearchStringAddition name="ПриобретеннаяНоменклатураСтрокаПоиска" id="49">
+						<AdditionSource>
+							<Item>ПриобретеннаяНоменклатура</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПриобретеннаяНоменклатураСтрокаПоискаКонтекстноеМеню" id="50"/>
+						<ExtendedTooltip name="ПриобретеннаяНоменклатураСтрокаПоискаРасширеннаяПодсказка" id="51"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ПриобретеннаяНоменклатураСостояниеПросмотра" id="52">
+						<AdditionSource>
+							<Item>ПриобретеннаяНоменклатура</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ПриобретеннаяНоменклатураСостояниеПросмотраКонтекстноеМеню" id="53"/>
+						<ExtendedTooltip name="ПриобретеннаяНоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="54"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ПриобретеннаяНоменклатураУправлениеПоиском" id="55">
+						<AdditionSource>
+							<Item>ПриобретеннаяНоменклатура</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ПриобретеннаяНоменклатураУправлениеПоискомКонтекстноеМеню" id="56"/>
+						<ExtendedTooltip name="ПриобретеннаяНоменклатураУправлениеПоискомРасширеннаяПодсказка" id="57"/>
+					</SearchControlAddition>
+					<Events>
+						<Event name="ChoiceProcessing">ПриобретеннаяНоменклатураОбработкаВыбора</Event>
+					</Events>
+					<ChildItems>
+						<LabelField name="ПриобретеннаяНоменклатураНомерСтроки" id="58">
+							<DataPath>Объект.ПриобретеннаяНоменклатура.LineNumber</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПриобретеннаяНоменклатураНомерСтрокиКонтекстноеМеню" id="59"/>
+							<ExtendedTooltip name="ПриобретеннаяНоменклатураНомерСтрокиРасширеннаяПодсказка" id="60"/>
+						</LabelField>
+						<InputField name="ПриобретеннаяНоменклатураНоменклатура" id="61">
+							<DataPath>Объект.ПриобретеннаяНоменклатура.Номенклатура</DataPath>
+							<EditMode>EnterOnInput</EditMode>
+							<ContextMenu name="ПриобретеннаяНоменклатураНоменклатураКонтекстноеМеню" id="62"/>
+							<ExtendedTooltip name="ПриобретеннаяНоменклатураНоменклатураРасширеннаяПодсказка" id="63"/>
+						</InputField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКонтактнаяИнформация" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контакты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контактная информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаКонтактнаяИнформацияРасширеннаяПодсказка" id="11"/>
+		</UsualGroup>
+		<UsualGroup name="ГруппаДополнительныеРеквизиты" id="12">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дополнительные реквизиты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа контактная информация</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Behavior>Collapsible</Behavior>
+			<Collapsed>true</Collapsed>
+			<ControlRepresentation>Picture</ControlRepresentation>
+			<ExtendedTooltip name="ГруппаДополнительныеРеквизитыРасширеннаяПодсказка" id="13"/>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:CatalogObject.Контрагенты</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Подбор" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Подбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Подбор</Action>
+		</Command>
+	</Commands>
+</Form>
