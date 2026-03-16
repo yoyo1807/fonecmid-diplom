@@ -1455,6 +1455,7 @@
 			<Document>ВКМ_НачислениеФиксированнойПремии</Document>
 			<Document>ВКМ_ВыплатаЗарплаты</Document>
 			<Document>ВКМ_ГрафикОтпусков</Document>
+			<Document>ВКМ_НачисленияЗарплаты1</Document>
 			<DocumentJournal>Деньги</DocumentJournal>
 			<Enum>ВариантыОтображенияМеток</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>

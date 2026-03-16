@@ -19,11 +19,6 @@
 			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Процент</CalculationType>
 			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</CalculationType>
 		</Base>
-		<Leading>
-			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</CalculationType>
-			<CalculationType>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Процент</CalculationType>
-			<CalculationType>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ФиксированнаяПремия</CalculationType>
-		</Leading>
 	</Item>
 	<Item id="cba416a7-9d37-48f1-8d27-015cc2381a0c">
 		<Name>Процент</Name>

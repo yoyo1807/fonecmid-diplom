@@ -124,6 +124,7 @@
 			</Attribute>
 			<Form>ФормаДокумента</Form>
 			<Form>ВКМ_АнализГрафика</Form>
+			<Form>ФормаСписка</Form>
 			<TabularSection uuid="5dd6c0cc-1d93-4b0c-9847-abfed7975713">
 				<InternalInfo>
 					<xr:GeneratedType name="DocumentTabularSection.ВКМ_ГрафикОтпусков.ОтпускаСотрудников" category="TabularSection">

@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
-	<Document uuid="fddd459f-f7b7-4403-9500-fe595cad0b60">
+	<Document uuid="112000d1-fea4-49f9-bb02-d8142fd26ed5">
 		<InternalInfo>
-			<xr:GeneratedType name="DocumentObject.ВКМ_НачисленияЗарплаты" category="Object">
-				<xr:TypeId>cd8ac59c-6d00-417a-bd2a-3e6d2b2028bb</xr:TypeId>
-				<xr:ValueId>da6efdcf-28e4-4878-8e1c-97cd14830461</xr:ValueId>
+			<xr:GeneratedType name="DocumentObject.ВКМ_НачисленияЗарплаты1" category="Object">
+				<xr:TypeId>a3062fc5-7b39-4a3c-9c38-d07afd9c708f</xr:TypeId>
+				<xr:ValueId>16bced1d-2017-4db0-8ccd-b35554bf2268</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentRef.ВКМ_НачисленияЗарплаты" category="Ref">
-				<xr:TypeId>9c63432f-bda6-4d1d-92c0-5c4990dc4c3b</xr:TypeId>
-				<xr:ValueId>85680a73-92e3-43a5-91d1-24aaab3cc098</xr:ValueId>
+			<xr:GeneratedType name="DocumentRef.ВКМ_НачисленияЗарплаты1" category="Ref">
+				<xr:TypeId>59553e84-9e5d-49a9-9902-499659976c50</xr:TypeId>
+				<xr:ValueId>c8550a11-b8f9-4b1e-93c1-307743eb01bf</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentSelection.ВКМ_НачисленияЗарплаты" category="Selection">
-				<xr:TypeId>1eafa550-d111-4ca1-a9dd-97d6f94a2761</xr:TypeId>
-				<xr:ValueId>e4b16a00-0310-4ceb-a41c-b1223f4220e7</xr:ValueId>
+			<xr:GeneratedType name="DocumentSelection.ВКМ_НачисленияЗарплаты1" category="Selection">
+				<xr:TypeId>fa415472-e24d-4616-80cf-ea8d1c374b8b</xr:TypeId>
+				<xr:ValueId>c5e0fa7a-5370-420b-bdaa-64a27e01d7ce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentList.ВКМ_НачисленияЗарплаты" category="List">
-				<xr:TypeId>6eb1c944-9dca-4fc5-a994-03e3ed1b626c</xr:TypeId>
-				<xr:ValueId>3fad67c7-3239-486a-878c-f082cfff2e29</xr:ValueId>
+			<xr:GeneratedType name="DocumentList.ВКМ_НачисленияЗарплаты1" category="List">
+				<xr:TypeId>3c4f3295-0fca-4ce9-8c12-7406710d999f</xr:TypeId>
+				<xr:ValueId>11822035-858f-4605-a2bc-a2bc699bf58c</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="DocumentManager.ВКМ_НачисленияЗарплаты" category="Manager">
-				<xr:TypeId>c98d5412-e2a3-4b0b-89f6-994931a0fec2</xr:TypeId>
-				<xr:ValueId>768a1529-f8bf-4900-bee6-f5e09ad70a26</xr:ValueId>
+			<xr:GeneratedType name="DocumentManager.ВКМ_НачисленияЗарплаты1" category="Manager">
+				<xr:TypeId>f2ed5bd9-b222-4d39-b80b-0049492506b0</xr:TypeId>
+				<xr:ValueId>6acc07cd-e1b3-41b2-b512-252f3d8ccdaa</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>ВКМ_НачисленияЗарплаты</Name>
+			<Name>ВКМ_НачисленияЗарплаты1</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -40,16 +40,153 @@
 			<NumberPeriodicity>Nonperiodical</NumberPeriodicity>
 			<CheckUnique>true</CheckUnique>
 			<Autonumbering>true</Autonumbering>
+			<StandardAttributes>
+				<xr:StandardAttribute name="Posted">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Ref">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="DeletionMark">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Date">
+					<xr:LinkByType/>
+					<xr:FillChecking>ShowError</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+				<xr:StandardAttribute name="Number">
+					<xr:LinkByType/>
+					<xr:FillChecking>DontCheck</xr:FillChecking>
+					<xr:MultiLine>false</xr:MultiLine>
+					<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+					<xr:CreateOnInput>Auto</xr:CreateOnInput>
+					<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+					<xr:MaxValue xsi:nil="true"/>
+					<xr:ToolTip/>
+					<xr:ExtendedEdit>false</xr:ExtendedEdit>
+					<xr:Format/>
+					<xr:ChoiceForm/>
+					<xr:QuickChoice>Auto</xr:QuickChoice>
+					<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+					<xr:EditFormat/>
+					<xr:PasswordMode>false</xr:PasswordMode>
+					<xr:DataHistory>Use</xr:DataHistory>
+					<xr:MarkNegatives>false</xr:MarkNegatives>
+					<xr:MinValue xsi:nil="true"/>
+					<xr:Synonym/>
+					<xr:Comment/>
+					<xr:FullTextSearch>Use</xr:FullTextSearch>
+					<xr:ChoiceParameterLinks/>
+					<xr:FillValue xsi:nil="true"/>
+					<xr:Mask/>
+					<xr:ChoiceParameters/>
+				</xr:StandardAttribute>
+			</StandardAttributes>
 			<Characteristics/>
 			<BasedOn/>
 			<InputByString>
-				<xr:Field>Document.ВКМ_НачисленияЗарплаты.StandardAttribute.Number</xr:Field>
+				<xr:Field>Document.ВКМ_НачисленияЗарплаты1.StandardAttribute.Number</xr:Field>
 			</InputByString>
 			<CreateOnInput>Use</CreateOnInput>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
 			<ChoiceDataGetModeOnInputByString>Directly</ChoiceDataGetModeOnInputByString>
-			<DefaultObjectForm>Document.ВКМ_НачисленияЗарплаты.Form.ФормаДокумента</DefaultObjectForm>
+			<DefaultObjectForm>Document.ВКМ_НачисленияЗарплаты1.Form.ФормаДокумента</DefaultObjectForm>
 			<DefaultListForm/>
 			<DefaultChoiceForm/>
 			<AuxiliaryObjectForm/>
@@ -84,15 +221,15 @@
 		</Properties>
 		<ChildObjects>
 			<Form>ФормаДокумента</Form>
-			<TabularSection uuid="0713bfcd-faf2-4fae-9fdc-560af019c88e">
+			<TabularSection uuid="daaaa156-ddf7-4052-9988-202722dd9c57">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ВКМ_НачисленияЗарплаты.Начисления" category="TabularSection">
-						<xr:TypeId>53fa13fe-f6b1-47a5-a738-8711d0c962e1</xr:TypeId>
-						<xr:ValueId>100cf86d-7fc1-492c-b1b3-c5c1ee7b0945</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ВКМ_НачисленияЗарплаты1.Начисления" category="TabularSection">
+						<xr:TypeId>765e4eb8-0e75-47f4-b6f9-df2f9411a37b</xr:TypeId>
+						<xr:ValueId>fc194718-141d-4162-b9fa-4f46b94c5555</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ВКМ_НачисленияЗарплаты.Начисления" category="TabularSectionRow">
-						<xr:TypeId>fa8178a2-fbd1-4fa1-8a6c-da16f71e261b</xr:TypeId>
-						<xr:ValueId>8bdec5a8-1755-42ab-b831-bcef22a05df5</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВКМ_НачисленияЗарплаты1.Начисления" category="TabularSectionRow">
+						<xr:TypeId>132e0f70-33da-4f3f-852b-f64b5a033b4b</xr:TypeId>
+						<xr:ValueId>d67f9437-231b-4dbd-a5f9-d870afb2ddb8</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -106,10 +243,39 @@
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
 					<LineNumberLength>5</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="f43c0ef6-54c2-4d2e-aa4e-7abe50e3a230">
+					<Attribute uuid="64f230d7-d39c-48ae-91ad-6a59bfe5f21a">
 						<Properties>
 							<Name>Сотрудник</Name>
 							<Synonym>
@@ -146,7 +312,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="6bab6fe7-b390-4d8a-9587-101e474606df">
+					<Attribute uuid="8756d1fc-9aea-4feb-ae59-6d73bbc30ecb">
 						<Properties>
 							<Name>ВидРасчета</Name>
 							<Synonym>
@@ -183,7 +349,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="894f26da-43d7-4be7-b79d-a2592fac71ac">
+					<Attribute uuid="b7437415-2af2-4c9f-8fe8-246d13aac183">
 						<Properties>
 							<Name>ДатаНачала</Name>
 							<Synonym>
@@ -223,7 +389,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="007f92f8-e5a7-4c0a-a097-148e2e4b0d7c">
+					<Attribute uuid="692d608e-fa01-4089-ab08-a231230a48b9">
 						<Properties>
 							<Name>ДатаОкончания</Name>
 							<Synonym>
@@ -263,7 +429,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="5e6c078e-67d2-4415-9790-012bf2010d5e">
+					<Attribute uuid="a563aa84-b580-4e98-bf5c-d0a26f6a0a74">
 						<Properties>
 							<Name>РазмерОклад</Name>
 							<Synonym>
@@ -307,15 +473,15 @@
 					</Attribute>
 				</ChildObjects>
 			</TabularSection>
-			<TabularSection uuid="2c44e680-2992-4167-963a-71aa19a2ca70">
+			<TabularSection uuid="70c1e7e8-d3aa-47c0-aa65-632de5f982c1">
 				<InternalInfo>
-					<xr:GeneratedType name="DocumentTabularSection.ВКМ_НачисленияЗарплаты.ДополнительныеНачисления" category="TabularSection">
-						<xr:TypeId>475ab9da-189b-4681-94b1-59ac3225837d</xr:TypeId>
-						<xr:ValueId>41014be1-e992-438b-be86-81e9e6eab277</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSection.ВКМ_НачисленияЗарплаты1.ДополнительныеНачисления" category="TabularSection">
+						<xr:TypeId>73286ea2-b5ac-46a5-8062-ff8be980fd9a</xr:TypeId>
+						<xr:ValueId>a172f0a5-ec66-48c9-996a-c68e241fb085</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DocumentTabularSectionRow.ВКМ_НачисленияЗарплаты.ДополнительныеНачисления" category="TabularSectionRow">
-						<xr:TypeId>e81c6f9a-0548-477e-bfb6-915b39ae0b20</xr:TypeId>
-						<xr:ValueId>5d4b512e-e058-4b6e-844d-8f79ac82a744</xr:ValueId>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ВКМ_НачисленияЗарплаты1.ДополнительныеНачисления" category="TabularSectionRow">
+						<xr:TypeId>027ef5a5-4651-4f7f-a677-00492e09c921</xr:TypeId>
+						<xr:ValueId>f6d13ce3-20bb-47ed-870f-18234a8d54b7</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
@@ -329,10 +495,39 @@
 					<Comment/>
 					<ToolTip/>
 					<FillChecking>DontCheck</FillChecking>
+					<StandardAttributes>
+						<xr:StandardAttribute name="LineNumber">
+							<xr:LinkByType/>
+							<xr:FillChecking>DontCheck</xr:FillChecking>
+							<xr:MultiLine>false</xr:MultiLine>
+							<xr:FillFromFillingValue>false</xr:FillFromFillingValue>
+							<xr:CreateOnInput>Auto</xr:CreateOnInput>
+							<xr:TypeReductionMode>TransformValues</xr:TypeReductionMode>
+							<xr:MaxValue xsi:nil="true"/>
+							<xr:ToolTip/>
+							<xr:ExtendedEdit>false</xr:ExtendedEdit>
+							<xr:Format/>
+							<xr:ChoiceForm/>
+							<xr:QuickChoice>Auto</xr:QuickChoice>
+							<xr:ChoiceHistoryOnInput>Auto</xr:ChoiceHistoryOnInput>
+							<xr:EditFormat/>
+							<xr:PasswordMode>false</xr:PasswordMode>
+							<xr:DataHistory>Use</xr:DataHistory>
+							<xr:MarkNegatives>false</xr:MarkNegatives>
+							<xr:MinValue xsi:nil="true"/>
+							<xr:Synonym/>
+							<xr:Comment/>
+							<xr:FullTextSearch>Use</xr:FullTextSearch>
+							<xr:ChoiceParameterLinks/>
+							<xr:FillValue xsi:nil="true"/>
+							<xr:Mask/>
+							<xr:ChoiceParameters/>
+						</xr:StandardAttribute>
+					</StandardAttributes>
 					<LineNumberLength>5</LineNumberLength>
 				</Properties>
 				<ChildObjects>
-					<Attribute uuid="8f88fd9d-e5ba-417f-bd9a-0fb555e2ae67">
+					<Attribute uuid="59b2ba90-695e-4a06-bb0d-eadfb0484af7">
 						<Properties>
 							<Name>Сотрудник</Name>
 							<Synonym>
@@ -369,7 +564,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="eecbe620-8862-4b43-bb65-5f8cf09ecb8c">
+					<Attribute uuid="094012ee-5048-49b8-8918-b42c30df6b23">
 						<Properties>
 							<Name>ВидРасчета</Name>
 							<Synonym>
@@ -406,7 +601,7 @@
 							<DataHistory>Use</DataHistory>
 						</Properties>
 					</Attribute>
-					<Attribute uuid="ac129f73-b044-4937-a231-aa8d9ad36a94">
+					<Attribute uuid="cc401927-ec75-4b8f-9739-e2efdb2c69e0">
 						<Properties>
 							<Name>Размер</Name>
 							<Synonym>
