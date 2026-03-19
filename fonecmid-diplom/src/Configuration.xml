@@ -837,6 +837,7 @@
 			<Role>ВКМ_Менеджер</Role>
 			<Role>ВКМ_БухгалтерИТ</Role>
 			<Role>ВКМ_КадровикРасчетчик</Role>
+			<Role>ВКМ_БазовыеПрава</Role>
 			<CommonTemplate>ДанныеПечатиОбщиеРеквизиты</CommonTemplate>
 			<CommonTemplate>ДанныеПечатиРегистрСимволов</CommonTemplate>
 			<CommonTemplate>ИнструкцияКакВыполнитьНастройкуМакетаOfficeOpen</CommonTemplate>
@@ -1455,7 +1456,6 @@
 			<Document>ВКМ_НачислениеФиксированнойПремии</Document>
 			<Document>ВКМ_ВыплатаЗарплаты</Document>
 			<Document>ВКМ_ГрафикОтпусков</Document>
-			<Document>ВКМ_НачисленияЗарплаты1</Document>
 			<DocumentJournal>Деньги</DocumentJournal>
 			<Enum>ВариантыОтображенияМеток</Enum>
 			<Enum>ВариантыОчисткиФайлов</Enum>
