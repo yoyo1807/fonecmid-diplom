@@ -15,7 +15,7 @@
 1. Распакуйте архив `test_folder` в рабочую директорию
 2. При необходимости используйте файл `test.txt` для проверки механизма вложений.
 3. В разделе `Переменные` сценария необходимо задать настройки: указать путь к вашей информационной базе и путь к папке test.. 
-<img width="290" height="80" alt="image" src="https://github.com/user-attachments/assets/01a134ac-71c6-4e96-88f8-41cd1a5990b4" />
+<img width="580" height="160" alt="image" src="https://github.com/user-attachments/assets/01a134ac-71c6-4e96-88f8-41cd1a5990b4" />
 
 
 #### 3. Запуск сценария
